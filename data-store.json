@@ -1,0 +1,638 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "john.doe@example.com",
+      "name": "John Doe",
+      "role": "user",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "bio": "Regular user who loves to travel and discover new places.",
+      "phoneNumber": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94105",
+        "country": "USA"
+      },
+      "created_at": "2024-01-15T08:30:00Z",
+      "updated_at": "2024-02-20T14:20:00Z",
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        },
+        "privacy": {
+          "showEmail": false,
+          "showPhone": false,
+          "showAddress": false
+        },
+        "theme": "system",
+        "language": "en-US"
+      },
+      "stats": {
+        "totalItemsReceived": 5,
+        "rating": 4.8,
+        "reviewCount": 4
+      },
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "jane.smith@example.com",
+      "name": "Jane Smith",
+      "role": "verified_user",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+      "bio": "Verified user who frequently ships items internationally.",
+      "phoneNumber": "+1987654321",
+      "address": {
+        "street": "456 Market St",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "USA"
+      },
+      "created_at": "2023-11-10T10:45:00Z",
+      "updated_at": "2024-02-15T09:10:00Z",
+      "verifiedAt": "2023-12-05T12:30:00Z",
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": true
+        },
+        "privacy": {
+          "showEmail": true,
+          "showPhone": false,
+          "showAddress": false
+        },
+        "theme": "dark",
+        "language": "en-US"
+      },
+      "stats": {
+        "totalItemsReceived": 12,
+        "rating": 4.9,
+        "reviewCount": 10
+      }
+    },
+    {
+      "id": "3",
+      "email": "michael.brown@example.com",
+      "name": "Michael Brown",
+      "role": "wingman",
+      "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+      "bio": "Experienced Wingman with over 50 successful deliveries across Europe.",
+      "phoneNumber": "+4412345678",
+      "address": {
+        "street": "789 Oxford St",
+        "city": "London",
+        "state": "England",
+        "postalCode": "W1D 1BS",
+        "country": "UK"
+      },
+      "created_at": "2023-08-20T15:30:00Z",
+      "updated_at": "2024-02-22T11:25:00Z",
+      "verifiedAt": "2023-09-10T13:45:00Z",
+      "wingmanApprovedAt": "2023-10-05T09:20:00Z",
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": true
+        },
+        "privacy": {
+          "showEmail": true,
+          "showPhone": true,
+          "showAddress": false
+        },
+        "theme": "light",
+        "language": "en-GB"
+      },
+      "stats": {
+        "totalFlights": 35,
+        "totalItemsDelivered": 52,
+        "rating": 4.95,
+        "reviewCount": 48
+      }
+    },
+    {
+      "id": "4",
+      "email": "test.user@example.com",
+      "name": "Test User",
+      "role": "user",
+      "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+      "bio": "Test user account for login testing.",
+      "phoneNumber": "+9876543210",
+      "address": {
+        "street": "901 Broadway",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10013",
+        "country": "USA"
+      },
+      "created_at": "2024-03-01T12:00:00Z",
+      "updated_at": "2024-03-01T12:00:00Z",
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        },
+        "privacy": {
+          "showEmail": false,
+          "showPhone": false,
+          "showAddress": false
+        },
+        "theme": "system",
+        "language": "en-US"
+      },
+      "stats": {
+        "totalItemsReceived": 0,
+        "rating": 0,
+        "reviewCount": 0
+      },
+      "password": "password123"
+    },
+    {
+      "id": "5",
+      "email": "pledgeandgrow@gmail.com",
+      "name": "Mehdi BEREL",
+      "role": "user",
+      "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
+      "bio": "",
+      "phoneNumber": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "country": ""
+      },
+      "created_at": "2025-02-28T17:39:51.473Z",
+      "updated_at": "2025-02-28T17:39:51.473Z",
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        },
+        "privacy": {
+          "showEmail": false,
+          "showPhone": false,
+          "showAddress": false
+        },
+        "theme": "system",
+        "language": "en-US"
+      },
+      "stats": {
+        "totalItemsReceived": 0,
+        "rating": 0,
+        "reviewCount": 0
+      },
+      "password": "Pledge2002"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "name": "Laptop Computer",
+      "description": "MacBook Pro 16-inch, Space Gray, 2023 model",
+      "weight": 2.1,
+      "dimensions": {
+        "length": 35.5,
+        "width": 24.5,
+        "height": 1.6
+      },
+      "category": "Electronics",
+      "value": 2500,
+      "images": [
+        "https://example.com/images/laptop1.jpg",
+        "https://example.com/images/laptop2.jpg"
+      ],
+      "status": "registered",
+      "insurance": true,
+      "fragile": true,
+      "specialInstructions": "Handle with care, keep away from liquids",
+      "sender": {
+        "id": "2",
+        "name": "Jane Smith"
+      },
+      "receiver": {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phoneNumber": "+1234567890",
+        "accepted": true
+      },
+      "pickup": {
+        "address": "456 Market St, New York, NY 10001, USA"
+      },
+      "delivery": {
+        "address": "123 Main St, San Francisco, CA 94105, USA"
+      },
+      "createdAt": "2025-02-15T10:30:00Z",
+      "updatedAt": "2025-02-15T14:45:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Gift Package",
+      "description": "Birthday gift box containing clothes and accessories",
+      "weight": 1.5,
+      "dimensions": {
+        "length": 30,
+        "width": 25,
+        "height": 15
+      },
+      "category": "Personal Items",
+      "value": 200,
+      "images": [
+        "https://example.com/images/gift1.jpg"
+      ],
+      "status": "booked",
+      "insurance": false,
+      "fragile": false,
+      "sender": {
+        "id": "2",
+        "name": "Jane Smith"
+      },
+      "receiver": {
+        "name": "Emma Wilson",
+        "email": "emma.wilson@example.com",
+        "accepted": false
+      },
+      "pickup": {
+        "address": "456 Market St, New York, NY 10001, USA",
+        "date": "2025-03-05T09:00:00Z"
+      },
+      "delivery": {
+        "address": "789 Oxford St, London, W1D 1BS, UK",
+        "date": "2025-03-07T15:00:00Z"
+      },
+      "flightId": "1",
+      "createdAt": "2025-02-20T08:15:00Z",
+      "updatedAt": "2025-02-21T16:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Professional Camera",
+      "description": "Sony Alpha A7 IV with 24-70mm lens",
+      "weight": 1.8,
+      "dimensions": {
+        "length": 28,
+        "width": 20,
+        "height": 15
+      },
+      "category": "Electronics",
+      "value": 3000,
+      "images": [
+        "https://example.com/images/camera1.jpg",
+        "https://example.com/images/camera2.jpg",
+        "https://example.com/images/camera3.jpg"
+      ],
+      "status": "travelling",
+      "insurance": true,
+      "fragile": true,
+      "specialInstructions": "Extremely sensitive equipment, avoid X-ray if possible",
+      "sender": {
+        "id": "2",
+        "name": "Jane Smith"
+      },
+      "receiver": {
+        "id": "3",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phoneNumber": "+4412345678",
+        "accepted": true
+      },
+      "pickup": {
+        "address": "456 Market St, New York, NY 10001, USA",
+        "date": "2025-02-25T10:00:00Z"
+      },
+      "delivery": {
+        "address": "789 Oxford St, London, W1D 1BS, UK",
+        "date": "2025-02-27T14:00:00Z"
+      },
+      "flightId": "2",
+      "createdAt": "2025-02-10T11:20:00Z",
+      "updatedAt": "2025-02-25T12:45:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Important Documents",
+      "description": "Legal contracts and business documents in a sealed envelope",
+      "weight": 0.3,
+      "dimensions": {
+        "length": 32,
+        "width": 25,
+        "height": 1
+      },
+      "category": "Documents",
+      "value": 100,
+      "images": [
+        "https://example.com/images/documents.jpg"
+      ],
+      "status": "delivered",
+      "insurance": true,
+      "fragile": false,
+      "specialInstructions": "Do not bend or fold",
+      "sender": {
+        "id": "2",
+        "name": "Jane Smith"
+      },
+      "receiver": {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phoneNumber": "+1234567890",
+        "accepted": true
+      },
+      "pickup": {
+        "address": "456 Market St, New York, NY 10001, USA",
+        "date": "2025-02-10T09:00:00Z"
+      },
+      "delivery": {
+        "address": "123 Main St, San Francisco, CA 94105, USA",
+        "date": "2025-02-12T11:30:00Z"
+      },
+      "flightId": "3",
+      "createdAt": "2025-02-05T15:45:00Z",
+      "updatedAt": "2025-02-12T12:30:00Z"
+    }
+  ],
+  "flights": [
+    {
+      "id": "1",
+      "flightNumber": "BA456",
+      "airline": "British Airways",
+      "departureAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "arrivalAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "United States"
+      },
+      "departureTime": "2025-03-15T08:30:00Z",
+      "arrivalTime": "2025-03-15T11:45:00Z",
+      "wingmanId": "3",
+      "status": "on_schedule",
+      "capacity": {
+        "weight": 10,
+        "volume": 0.05
+      },
+      "price": {
+        "baseRate": 25,
+        "perKg": 5
+      },
+      "created_at": "2025-02-15T12:00:00Z",
+      "updated_at": "2025-02-15T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "flightNumber": "AF123",
+      "airline": "Air France",
+      "departureAirport": {
+        "code": "CDG",
+        "name": "Charles de Gaulle Airport",
+        "city": "Paris",
+        "country": "France"
+      },
+      "arrivalAirport": {
+        "code": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "departureTime": "2025-03-20T14:15:00Z",
+      "arrivalTime": "2025-03-20T17:30:00Z",
+      "wingmanId": "4",
+      "status": "on_schedule",
+      "capacity": {
+        "weight": 15,
+        "volume": 0.1
+      },
+      "price": {
+        "baseRate": 30,
+        "perKg": 6
+      },
+      "created_at": "2025-02-18T09:30:00Z",
+      "updated_at": "2025-02-18T09:30:00Z"
+    },
+    {
+      "id": "3",
+      "flightNumber": "LH234",
+      "airline": "Lufthansa",
+      "departureAirport": {
+        "code": "FRA",
+        "name": "Frankfurt Airport",
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "arrivalAirport": {
+        "code": "SIN",
+        "name": "Singapore Changi Airport",
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "departureTime": "2025-03-25T22:45:00Z",
+      "arrivalTime": "2025-03-26T18:20:00Z",
+      "wingmanId": "3",
+      "status": "on_schedule",
+      "capacity": {
+        "weight": 12,
+        "volume": 0.08
+      },
+      "price": {
+        "baseRate": 35,
+        "perKg": 7
+      },
+      "created_at": "2025-02-20T16:45:00Z",
+      "updated_at": "2025-02-20T16:45:00Z"
+    },
+    {
+      "id": "4",
+      "flightNumber": "SQ456",
+      "airline": "Singapore Airlines",
+      "departureAirport": {
+        "code": "SIN",
+        "name": "Singapore Changi Airport",
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "arrivalAirport": {
+        "code": "MEL",
+        "name": "Melbourne Airport",
+        "city": "Melbourne",
+        "country": "Australia"
+      },
+      "departureTime": "2025-04-05T01:30:00Z",
+      "arrivalTime": "2025-04-05T11:45:00Z",
+      "wingmanId": "4",
+      "status": "on_schedule",
+      "capacity": {
+        "weight": 18,
+        "volume": 0.12
+      },
+      "price": {
+        "baseRate": 28,
+        "perKg": 5.5
+      },
+      "created_at": "2025-02-25T10:15:00Z",
+      "updated_at": "2025-02-25T10:15:00Z"
+    },
+    {
+      "id": "5",
+      "flightNumber": "EK789",
+      "airline": "Emirates",
+      "departureAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "arrivalAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departureTime": "2025-04-10T14:00:00Z",
+      "arrivalTime": "2025-04-10T18:30:00Z",
+      "wingmanId": "3",
+      "status": "on_schedule",
+      "capacity": {
+        "weight": 20,
+        "volume": 0.15
+      },
+      "price": {
+        "baseRate": 32,
+        "perKg": 6.5
+      },
+      "created_at": "2025-03-01T08:20:00Z",
+      "updated_at": "2025-03-01T08:20:00Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "itemId": "1",
+      "flightId": "1",
+      "userId": "2",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "price": {
+        "baseFee": 25,
+        "weightFee": 10.5,
+        "insuranceFee": 25,
+        "platformFee": 12.1,
+        "total": 72.6
+      },
+      "created_at": "2025-02-20T10:45:00Z",
+      "updated_at": "2025-02-20T10:50:00Z",
+      "paymentId": "pay_123456789",
+      "notes": "Please keep in original packaging"
+    },
+    {
+      "id": "2",
+      "itemId": "2",
+      "flightId": "3",
+      "userId": "5",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "price": {
+        "baseFee": 35,
+        "weightFee": 10.5,
+        "insuranceFee": 18,
+        "platformFee": 9.1,
+        "total": 72.6
+      },
+      "created_at": "2025-02-21T15:30:00Z",
+      "updated_at": "2025-02-21T15:35:00Z",
+      "paymentId": "pay_987654321",
+      "notes": "Fragile equipment, handle with care"
+    },
+    {
+      "id": "3",
+      "itemId": "3",
+      "flightId": "2",
+      "userId": "6",
+      "status": "pending",
+      "paymentStatus": "awaiting_payment",
+      "price": {
+        "baseFee": 30,
+        "weightFee": 3,
+        "insuranceFee": 5,
+        "platformFee": 6.6,
+        "total": 44.6
+      },
+      "created_at": "2025-02-26T08:15:00Z",
+      "updated_at": "2025-02-26T08:15:00Z",
+      "notes": "Legal documents, keep sealed"
+    },
+    {
+      "id": "4",
+      "itemId": "4",
+      "flightId": "5",
+      "userId": "2",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "price": {
+        "baseFee": 32,
+        "weightFee": 13,
+        "insuranceFee": 3,
+        "platformFee": 9,
+        "total": 57
+      },
+      "created_at": "2025-02-27T19:25:00Z",
+      "updated_at": "2025-02-27T19:30:00Z",
+      "paymentId": "pay_456123789",
+      "notes": "Birthday gift, please deliver on time"
+    },
+    {
+      "id": "5",
+      "itemId": "5",
+      "flightId": "4",
+      "userId": "5",
+      "status": "cancelled",
+      "paymentStatus": "refunded",
+      "price": {
+        "baseFee": 28,
+        "weightFee": 11,
+        "insuranceFee": 5,
+        "platformFee": 7.8,
+        "total": 51.8
+      },
+      "created_at": "2025-02-28T11:40:00Z",
+      "updated_at": "2025-03-01T14:20:00Z",
+      "paymentId": "pay_789456123",
+      "cancellationReason": "Wingman unable to carry medical supplies",
+      "refundId": "ref_123789456"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notification-1740764391475",
+      "userId": "5",
+      "title": "Welcome to Wingman!",
+      "message": "Hi Mehdi, welcome to Wingman! We're excited to have you on board.",
+      "type": "welcome",
+      "isRead": false,
+      "createdAt": "2025-02-28T17:39:51.475Z"
+    },
+    {
+      "id": "notification-1740775742625",
+      "userId": "5",
+      "title": "Welcome back!",
+      "message": "You have successfully logged in to your account.",
+      "type": "welcome",
+      "isRead": false,
+      "createdAt": "2025-02-28T20:49:02.625Z"
+    }
+  ],
+  "tokens": {}
+}
